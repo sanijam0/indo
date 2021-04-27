@@ -17,8 +17,8 @@ logo1 = """
     |_______ \____/ \___  >__|_ \ |__|   |___  /
             \/          \/     \/            \/ 
  [*] ----------------------------------------------
- [*] Gitbub      : https://github.com/Yayan-XD
- [*] Facebook    : https://www.facebook.com/KM39453
+ [*] Gitbub      : https://github.com/Jam_shahrukh
+ [*] Facebook    : Jam Shahrukh Official
  [*] ----------------------------------------------\n"""% (m,h,m,p)
 def aahh(s):
     for c in s + '\n':
@@ -64,6 +64,8 @@ def login(kukis):
         
 		print("%s [%s✓%s] Locked profile is active" % (p,h,p))
 		time.sleep(3)
+		os.system('clear')
+		os.system('python2 jam.py')
 	else:
 		exit("\n%s [%s×%s] Cookie Invalid\n" % (p,m,p))
 
@@ -77,11 +79,12 @@ def main():
     |_______ \____/ \___  >__|_ \ |__|   |___  /
             \/          \/     \/            \/ 
  [*] ----------------------------------------------
- [*] Gitbub      : https://github.com/Yayan-XD
- [*] Facebook    : https://www.facebook.com/KM39453
+ [*] Gitbub      : https://github.com/Jam_shahrukh
+ [*] Facebook    : Jam Shahrukh Official
  [*] ----------------------------------------------\n"""% (m,h,m,p)
 	print(logo)
-	print("     %s     [ %sYour Facebook Login Cookies %s]" % (k,h,k) )
+	print("     %s     [ %s Lock Profile Account Method %s]" % (k,h,k) )
+	print("     %s     [ %s Apni Id Ki Cookies Paste Krain %s]" % (k,h,k) )
 	kue = input("\n%s [%s?%s] Cookies %s: %s" % (p,k,p,m,h))
 	login(kue)
 
